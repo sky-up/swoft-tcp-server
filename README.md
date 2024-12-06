@@ -16,7 +16,7 @@ Swoft Tcp Server Component
 - composer command
 
 ```bash
-composer require swoft/tcp-server
+composer require swoft-fork/tcp-server
 ```
 
 ## Resources
