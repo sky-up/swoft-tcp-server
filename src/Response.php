@@ -71,7 +71,7 @@ class Response extends TcpResponse implements ResponseInterface
      * @return int
      * @throws TcpResponseException
      */
-    public function send(Server $server = null): int
+    public function send(?Server $server = null): int
     {
         // Deny repeat call send.
         // But if you want send again, you can call `setSent(false)` before call it.
